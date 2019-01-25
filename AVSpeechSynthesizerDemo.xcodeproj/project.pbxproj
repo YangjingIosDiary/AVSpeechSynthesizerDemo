@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3975080421FAB6CA00B585DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975080321FAB6CA00B585DD /* AppDelegate.m */; };
+		3975080721FAB6CA00B585DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975080621FAB6CA00B585DD /* ViewController.m */; };
+		3975080A21FAB6CA00B585DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3975080821FAB6CA00B585DD /* Main.storyboard */; };
+		3975080C21FAB6CB00B585DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3975080B21FAB6CB00B585DD /* Assets.xcassets */; };
+		3975080F21FAB6CB00B585DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3975080D21FAB6CB00B585DD /* LaunchScreen.storyboard */; };
+		3975081221FAB6CB00B585DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975081121FAB6CB00B585DD /* main.m */; };
+		3975081C21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975081B21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.m */; };
+		3975082721FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975082621FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3975081821FAB6CB00B585DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397507F721FAB6CA00B585DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397507FE21FAB6CA00B585DD;
+			remoteInfo = AVSpeechSynthesizerDemo;
+		};
+		3975082321FAB6CB00B585DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397507F721FAB6CA00B585DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397507FE21FAB6CA00B585DD;
+			remoteInfo = AVSpeechSynthesizerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		397507FF21FAB6CA00B585DD /* AVSpeechSynthesizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVSpeechSynthesizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3975080221FAB6CA00B585DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3975080321FAB6CA00B585DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3975080521FAB6CA00B585DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3975080621FAB6CA00B585DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3975080921FAB6CA00B585DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3975080B21FAB6CB00B585DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3975080E21FAB6CB00B585DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3975081021FAB6CB00B585DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3975081121FAB6CB00B585DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3975081721FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVSpeechSynthesizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3975081B21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVSpeechSynthesizerDemoTests.m; sourceTree = "<group>"; };
+		3975081D21FAB6CB00B585DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3975082221FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVSpeechSynthesizerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3975082621FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVSpeechSynthesizerDemoUITests.m; sourceTree = "<group>"; };
+		3975082821FAB6CB00B585DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397507FC21FAB6CA00B585DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975081421FAB6CB00B585DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975081F21FAB6CB00B585DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397507F621FAB6CA00B585DD = {
+			isa = PBXGroup;
+			children = (
+				3975080121FAB6CA00B585DD /* AVSpeechSynthesizerDemo */,
+				3975081A21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests */,
+				3975082521FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests */,
+				3975080021FAB6CA00B585DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3975080021FAB6CA00B585DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397507FF21FAB6CA00B585DD /* AVSpeechSynthesizerDemo.app */,
+				3975081721FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.xctest */,
+				3975082221FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3975080121FAB6CA00B585DD /* AVSpeechSynthesizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3975080221FAB6CA00B585DD /* AppDelegate.h */,
+				3975080321FAB6CA00B585DD /* AppDelegate.m */,
+				3975080521FAB6CA00B585DD /* ViewController.h */,
+				3975080621FAB6CA00B585DD /* ViewController.m */,
+				3975080821FAB6CA00B585DD /* Main.storyboard */,
+				3975080B21FAB6CB00B585DD /* Assets.xcassets */,
+				3975080D21FAB6CB00B585DD /* LaunchScreen.storyboard */,
+				3975081021FAB6CB00B585DD /* Info.plist */,
+				3975081121FAB6CB00B585DD /* main.m */,
+			);
+			path = AVSpeechSynthesizerDemo;
+			sourceTree = "<group>";
+		};
+		3975081A21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3975081B21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.m */,
+				3975081D21FAB6CB00B585DD /* Info.plist */,
+			);
+			path = AVSpeechSynthesizerDemoTests;
+			sourceTree = "<group>";
+		};
+		3975082521FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3975082621FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.m */,
+				3975082821FAB6CB00B585DD /* Info.plist */,
+			);
+			path = AVSpeechSynthesizerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397507FE21FAB6CA00B585DD /* AVSpeechSynthesizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3975082B21FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemo" */;
+			buildPhases = (
+				397507FB21FAB6CA00B585DD /* Sources */,
+				397507FC21FAB6CA00B585DD /* Frameworks */,
+				397507FD21FAB6CA00B585DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVSpeechSynthesizerDemo;
+			productName = AVSpeechSynthesizerDemo;
+			productReference = 397507FF21FAB6CA00B585DD /* AVSpeechSynthesizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3975081621FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3975082E21FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemoTests" */;
+			buildPhases = (
+				3975081321FAB6CB00B585DD /* Sources */,
+				3975081421FAB6CB00B585DD /* Frameworks */,
+				3975081521FAB6CB00B585DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3975081921FAB6CB00B585DD /* PBXTargetDependency */,
+			);
+			name = AVSpeechSynthesizerDemoTests;
+			productName = AVSpeechSynthesizerDemoTests;
+			productReference = 3975081721FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3975082121FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3975083121FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemoUITests" */;
+			buildPhases = (
+				3975081E21FAB6CB00B585DD /* Sources */,
+				3975081F21FAB6CB00B585DD /* Frameworks */,
+				3975082021FAB6CB00B585DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3975082421FAB6CB00B585DD /* PBXTargetDependency */,
+			);
+			name = AVSpeechSynthesizerDemoUITests;
+			productName = AVSpeechSynthesizerDemoUITests;
+			productReference = 3975082221FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397507F721FAB6CA00B585DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = YangJing;
+				TargetAttributes = {
+					397507FE21FAB6CA00B585DD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3975081621FAB6CB00B585DD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 397507FE21FAB6CA00B585DD;
+					};
+					3975082121FAB6CB00B585DD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 397507FE21FAB6CA00B585DD;
+					};
+				};
+			};
+			buildConfigurationList = 397507FA21FAB6CA00B585DD /* Build configuration list for PBXProject "AVSpeechSynthesizerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 397507F621FAB6CA00B585DD;
+			productRefGroup = 3975080021FAB6CA00B585DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397507FE21FAB6CA00B585DD /* AVSpeechSynthesizerDemo */,
+				3975081621FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests */,
+				3975082121FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397507FD21FAB6CA00B585DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3975080F21FAB6CB00B585DD /* LaunchScreen.storyboard in Resources */,
+				3975080C21FAB6CB00B585DD /* Assets.xcassets in Resources */,
+				3975080A21FAB6CA00B585DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975081521FAB6CB00B585DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975082021FAB6CB00B585DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397507FB21FAB6CA00B585DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3975080721FAB6CA00B585DD /* ViewController.m in Sources */,
+				3975081221FAB6CB00B585DD /* main.m in Sources */,
+				3975080421FAB6CA00B585DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975081321FAB6CB00B585DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3975081C21FAB6CB00B585DD /* AVSpeechSynthesizerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3975081E21FAB6CB00B585DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3975082721FAB6CB00B585DD /* AVSpeechSynthesizerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3975081921FAB6CB00B585DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397507FE21FAB6CA00B585DD /* AVSpeechSynthesizerDemo */;
+			targetProxy = 3975081821FAB6CB00B585DD /* PBXContainerItemProxy */;
+		};
+		3975082421FAB6CB00B585DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397507FE21FAB6CA00B585DD /* AVSpeechSynthesizerDemo */;
+			targetProxy = 3975082321FAB6CB00B585DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3975080821FAB6CA00B585DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3975080921FAB6CA00B585DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3975080D21FAB6CB00B585DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3975080E21FAB6CB00B585DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3975082921FAB6CB00B585DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3975082A21FAB6CB00B585DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3975082C21FAB6CB00B585DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3975082D21FAB6CB00B585DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3975082F21FAB6CB00B585DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVSpeechSynthesizerDemo.app/AVSpeechSynthesizerDemo";
+			};
+			name = Debug;
+		};
+		3975083021FAB6CB00B585DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVSpeechSynthesizerDemo.app/AVSpeechSynthesizerDemo";
+			};
+			name = Release;
+		};
+		3975083221FAB6CB00B585DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVSpeechSynthesizerDemo;
+			};
+			name = Debug;
+		};
+		3975083321FAB6CB00B585DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = AVSpeechSynthesizerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.AVSpeechSynthesizerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVSpeechSynthesizerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397507FA21FAB6CA00B585DD /* Build configuration list for PBXProject "AVSpeechSynthesizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3975082921FAB6CB00B585DD /* Debug */,
+				3975082A21FAB6CB00B585DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3975082B21FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3975082C21FAB6CB00B585DD /* Debug */,
+				3975082D21FAB6CB00B585DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3975082E21FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3975082F21FAB6CB00B585DD /* Debug */,
+				3975083021FAB6CB00B585DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3975083121FAB6CB00B585DD /* Build configuration list for PBXNativeTarget "AVSpeechSynthesizerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3975083221FAB6CB00B585DD /* Debug */,
+				3975083321FAB6CB00B585DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 397507F721FAB6CA00B585DD /* Project object */;
+}
